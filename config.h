@@ -2,6 +2,7 @@
 //add update signal to 34
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
+	{"", "cat /tmp/recordingicon 2>/dev/null",	0,		13},
 	{"", "~/.local/bin/statusbar/sb-music",		1,		10},
 	{"", "~/.local/bin/statusbar/sb-mail",		180,		8},
 	{"", "~/.local/bin/statusbar/sb-rss",		0,		7},
